@@ -14,11 +14,12 @@ def test_addition_calculating():
     assert addition_calculating(2, 2) == 4
 
 
-string = "Hello World!"
+def string(name):
+    return name
 
 
 def test_string_name():
-    assert string == "Hello World!"
+    assert string("Hello World!") == "Hello World!"
 
 
 def string_concatenation(string_1, string_2):
