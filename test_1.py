@@ -1,11 +1,8 @@
 __author__ = 'vlad'
 
 
-number = 2 + 2
-
-
 def test_number():
-    assert number == 4
+    assert 2 + 2 == 4
 
 
 def addition_calculating(x, y):
