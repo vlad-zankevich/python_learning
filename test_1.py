@@ -27,5 +27,5 @@ def string_concatenation(string_1, string_2):
 
 
 def test_string_concatenation():
-    assert string_concatenation("Hello ", "World!") == "Hello World!"
+    assert string_concatenation("Hello", " World!") == "Hello World!"
 
