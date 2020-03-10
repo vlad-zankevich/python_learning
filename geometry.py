@@ -30,8 +30,8 @@ class Square:
         self.a = a
         self.angle = angle
 
-    def area(self, a):
-        result = (2 * a) * (2 * a)
+    def area(self):
+        result = self.a * self.a
         return result
 
 
