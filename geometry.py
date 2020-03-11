@@ -15,8 +15,13 @@ class Circle:
         self.y = y
         self.r = r
 
-    def area(self, r):
-        result = 3.1415 * r * r
+    def area(self):
+        result = 3.1415 * self.r * self.r
+        return result
+
+    def perimeter(self):
+        abs_r = abs(self.r)
+        result = 2 * 3.1415 * abs_r
         return result
 
 
@@ -31,7 +36,12 @@ class Square:
         self.angle = angle
 
     def area(self):
-        result = self.a * self.a
+        result = (2 * self.a) * (2 * self.a)
+        return result
+
+    def perimeter(self):
+        abs_a = abs(self.a)
+        result = abs_a * 8
         return result
 
 
@@ -47,8 +57,16 @@ class Rectangle:
         self.b = b
         self.angle = angle
 
-    def area(self, a, b):
-        result = (2 * a) * (2 * b)
+    def area(self):
+        abs_a = abs(self.a)
+        abs_b = abs(self.b)
+        result = (2 * abs_a) * (2 * abs_b)
+        return result
+
+    def perimeter(self):
+        abs_a = abs(self.a)
+        abs_b = abs(self.b)
+        result = (abs_a + abs_b) * 4
         return result
 
 
