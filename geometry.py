@@ -7,6 +7,12 @@ class Point:
         self.x = x
         self.y = y
 
+    def area(self):
+        return 0
+
+    def perimeter(self):
+        return 0
+
 
 class Circle:
     def __init__(self, x, y, r):

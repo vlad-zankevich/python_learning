@@ -14,6 +14,12 @@ def test_square_constructor():
     assert s.angle == 12
 
 
+def test_point_area():
+    b = Point(1, 4)
+
+    assert b.area() == 0
+
+
 def test_square_area():
     s = Square(1, 5, 2, 12)
 
